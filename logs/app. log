@@ -1,0 +1,27 @@
+2026-09-30 11:50:21,603 | INFO | Dataset loaded with shape: (1025, 14)
+2026-09-30 11:50:21,631 | INFO | Train shape: (520, 13), Test shape: (505, 13)
+2026-09-30 11:50:25,707 | INFO | Model training completed
+2026-09-30 11:50:26,733 | INFO | Train Accuracy: 0.9365 | Recall: 0.9347 | F1: 0.9328
+2026-09-30 11:50:26,734 | INFO | Test  Accuracy: 0.8198 | Recall: 0.8470 | F1: 0.8395
+2026-09-30 11:50:26,752 | INFO | Train Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.94      0.94      0.94       275
+           1       0.93      0.93      0.93       245
+
+    accuracy                           0.94       520
+   macro avg       0.94      0.94      0.94       520
+weighted avg       0.94      0.94      0.94       520
+
+2026-09-30 11:50:26,771 | INFO | Test Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.80      0.79      0.79       224
+           1       0.83      0.85      0.84       281
+
+    accuracy                           0.82       505
+   macro avg       0.82      0.82      0.82       505
+weighted avg       0.82      0.82      0.82       505
+
+2026-09-30 11:50:27,562 | INFO | Model saved to: C:\Users\elram\OneDrive\Desktop\Personal-projects\AortaML\model\heart-disease-prediction-model.joblib
+2026-09-30 11:50:27,562 | INFO | Training Script Completed

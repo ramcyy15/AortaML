@@ -25,3 +25,5 @@ weighted avg       0.82      0.82      0.82       505
 
 2026-09-30 11:50:27,562 | INFO | Model saved to: C:\Users\elram\OneDrive\Desktop\Personal-projects\AortaML\model\heart-disease-prediction-model.joblib
 2026-09-30 11:50:27,562 | INFO | Training Script Completed
+2026-10-18 13:53:50,784 | INFO | Model loaded finished!
+2026-10-18 13:57:07,502 | INFO | Model loaded finished!

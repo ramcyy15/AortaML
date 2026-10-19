@@ -47,7 +47,8 @@ def predict(input_data: dict):
     return{
         
         "prediction": prediction,
-        "probability": probability
+        "probability": probability,
+        "diagnosis": "Heart Disease" if prediction == 1 else "Normal"
     }
 
 

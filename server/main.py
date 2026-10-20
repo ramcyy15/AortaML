@@ -36,11 +36,11 @@ def prediction_heart_disease(input_data: HeartDiseaseInput):
     input_data = input_data.model_dump()
     result = predict(input_data=input_data)
     return{
-        "prediction": result.prediction,
-        "probability": result.probability,
+        "prediction": result["prediction"],
+        "probability": result["probability"],
         "diagnosis": (
             "Heart Disease Detected"
-            if result.prediction == 1
+            if result["prediction"] == 1
             else "No Heart Disease Detected"
         )  
     }
